@@ -41,7 +41,7 @@ function displayEmployees(employeeData) {
       name.last
     }" class="card__img" />
         <div class="card__info">
-          <h2 class="card__info-name">${name.first} ${name.last}</h2>
+          <h2 class="card__info-name"><text-shadow: 4px 4px 4px #aaa;>${name.first} ${name.last}</h2>
           <p class="card__info-email">${email}</p>
           <p class="card__info-address">${city}, ${state}</p>
         </div>
