@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>EAFIT - DIRECTORIO DE EMPLEADOS</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="normalize.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lora:700|Source+Sans+Pro:300,600"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 class="directory-title"><img src="http://webapps.eafit.edu.co/directorio/usuarios/imagenes/logosimbolo_eafit.png" alt="EAFIT" /> DIRECTORIO DE EMPLEADOS</h1>
+    
+    <div class="search">
+      <label for="search">BUSCAR EMPLEADOS: </label
+      ><input
+        type="text"
+        name="search"
+        id="search"
+        class="search-input"
+        placeholder="Search employees"
+      />
+    </div>
+    <main class="directory-container"></main>
+    <div class="overlay modal-hide">
+      <div class="modal">
+        <p class="modal-x-closer">x</p>
+        <div class="modal-content"></div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
